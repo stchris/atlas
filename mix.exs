@@ -5,7 +5,7 @@ defmodule Atlas.Mixfile do
     [
       app: :atlas,
       version: "0.2.0",
-      elixir: ">= 0.13.3",
+      elixir: ">= 0.14.2",
       deps: deps,
       package: [
         contributors: ["Chris McCord", "Sonny Scroggin"],

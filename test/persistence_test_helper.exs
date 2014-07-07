@@ -91,7 +91,7 @@ defmodule Atlas.PersistenceTestHelper do
         :ok
       end
 
-      teardown_all do
+      on_exit do
         drop_table
         :ok
       end
